@@ -27,7 +27,7 @@ export default function Home() {
           <button className='button'>Book now</button>
         </div>
         <div className='image'>
-          <img src='images/container.png' alt='' width="600px" />
+          <img src='images/container1.png' alt='' width="600px" />
         </div>
       </section>
 
