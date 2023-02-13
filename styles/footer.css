@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer {
+    display: flex;
+    padding: 50px;
+    background-color: #121315;
+    color: #a7a7a7; 
+    gap: 3rem;
+    align-items: center;
+
+    
+}
+
+.column-1 {
+    width: 80%;
+    padding-right: 150px;
+    
+    
+}
+
+.column {
+    width: 60%;
+    
+}
+
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-1 {
+        padding-right: 0;
+    }
+
+
+   
+  }

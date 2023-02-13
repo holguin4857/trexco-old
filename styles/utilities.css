@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Hero content */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5% 5%;
+    padding: 0%;
+}
+  .content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+   .button {
+    width: 300px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style:dashed;
+    font-size: 17px;
+    font-weight: 600;
+    
+  }
+
+  .container .image {
+    width: auto;
+  }
+
+  /* Hero content responsive */
+
+  @media screen and (max-width: 980px) {
+    .image {
+        width: 350px;
+    }
+    .content h1 {
+        font-size: 40px;
+    }
+    .content p {
+        font-size: 17px;
+    }
+    .container {
+        margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .image {
+        display: none;
+    }
+  
+    .content h1 {
+        font-size: 40px;
+    }
+   
+    .container {
+        flex-direction: column;
+    }
+
+    .container .content {
+        padding: 18px;
+    }
+  }
+
+  /*3 column content*/
+
+  .column-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5% 5%;
+    padding: 0%;
+    text-align: center;  
+}
+
+  .column h2 {
+    padding: 10px;
+  }
+
+  .column p {
+    padding: 16px;
+  }
+
+  .column img {
+    padding: 16px;
+  }
+
+  /*3 column content responsive*/
+
+  @media screen and (max-width: 980px) {
+
+    .column-3 {
+        margin-top: 5px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .column-3 {
+        flex-direction: column;
+    }
+
+    .container .h2 {
+        padding: 18px;
+    }
+  }
+
+    
+  
+  
+  
+
+ 
+
+ 
