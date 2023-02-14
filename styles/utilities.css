@@ -16,7 +16,7 @@
   }
 
   .content p {
-    font-size: 25px;
+    font-size: 26px;
     margin-bottom: 40px;
   }
 
@@ -25,7 +25,6 @@
     padding: 12px 20px;
     border-radius: 20px;
     border-style:dashed;
-    font-size: 17px;
     font-weight: 600;
     
   }
@@ -36,20 +35,7 @@
 
   /* Hero content responsive */
 
-  @media screen and (max-width: 980px) {
-    .image {
-        width: 350px;
-    }
-    .content h1 {
-        font-size: 40px;
-    }
-    .content p {
-        font-size: 17px;
-    }
-    .container {
-        margin-top: 10px;
-    }
-  }
+ 
 
   @media screen and (max-width: 600px) {
 
@@ -58,11 +44,11 @@
     }
   
     .content h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .content p {
-      font-size: 22px;
+      font-size: 20px;
   }
    
     .container {
@@ -81,7 +67,6 @@
     align-items: center;
     padding: 3%;
     text-align: center;
-    font-size: 22px; 
     margin-bottom: 20px;
    
 }
@@ -113,7 +98,6 @@
 
     .column-3 {
         flex-direction: column;
-        font-size: 22px; 
         margin: 0;
     }
 
