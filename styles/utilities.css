@@ -64,12 +64,17 @@
 
   .column-3 {
     display: flex;
+    margin: 0 -15px;
     align-items: center;
     padding: 3%;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 18px;
    
 }
+  .column {
+    padding: 0 15px 30px ;
+  }
 
   .column h2 {
     padding: 0px;
@@ -98,12 +103,11 @@
 
     .column-3 {
         flex-direction: column;
-        margin: 0;
+        font-size: 16px;
+        
     }
 
-    .container .h2 {
-        padding: 18px;
-    }
+    
   }
 
     
