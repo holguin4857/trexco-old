@@ -17,11 +17,17 @@ header{
 }
 nav{
   display: flex;
-  padding: 16px 40px;
+  padding: 16px 85px;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1;  
 }
+
+.logo {
+  font-size: 30px;
+}
+
+
 .nav__menu-bar{
   display: flex;
   flex-direction: column;
@@ -67,6 +73,7 @@ nav{
   align-items: center;
 }
 @media screen and (min-width: 768px) {
+
   .nav__menu-bar{
     display: none;
   }
@@ -92,4 +99,16 @@ nav{
   .nav__link:hover:before{
    width: 100%;
   }
+}
+
+@media screen and (max-width: 600px) {
+
+  .nav {
+    padding: 16px 35px;
+  }
+
+  .logo {
+    font-size: 30px; 
+  }
+
 }

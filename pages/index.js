@@ -31,25 +31,36 @@ export default function Home() {
         </div>
       </section>
 
+
+
       <section className='column-3'>
         <div className='column'>
           <img src='images/man-compu-cat-round.webp' />
-          <h2>1.- Place an order</h2>
+          <h2>Place an order</h2>
           <p>Pick the trexco pallet boxes you need for your shipment and book the delivery and collection date.</p>
         </div>
         <div className='column'>
           <img src='images/box-and-cat-round.webp' />
-          <h2>2.- Start packing</h2>
+          <h2>Start packing</h2>
           <p>Pack your shipment on the Trexx pallet boxes, start packing the heavy stuff first and fragile on the top, seal and label the box.</p>
         </div>
         <div className='column'>
           <img src='images/man-and-truck-round.webp' />
-          <h2>3.- Arrange collection</h2>
+          <h2>Arrange collection</h2>
           <p>Choose the collection date a driver will load your Trexx-Box with a pallet truck and it will get shipped to your destination.</p>
         </div>
       </section>
 
+
+      <section className='container'>
+        <div className='content'>
+          <h1>shipping with confidence</h1>
+          <p>We have secured competitive shipping rates to many destinations around the world, from air, road or sea shipment. We have over 17 years of experience as freight forwarders.</p>
+        
+        </div>
       
+      </section>
+
       
       <article class="footer">
         <article class="column-1">
