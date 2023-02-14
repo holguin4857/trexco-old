@@ -59,6 +59,10 @@
     .content h1 {
         font-size: 40px;
     }
+
+    .content p {
+      font-size: 18px;
+  }
    
     .container {
         flex-direction: column;
