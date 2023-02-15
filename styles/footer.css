@@ -6,22 +6,27 @@
     background-color: #121315;
     color: #a7a7a7; 
     gap: 3rem;
-    align-items: center;
-
-    
+    align-items: center;   
 }
 
 .column-1 {
-    width: 80%;
-    padding-right: 150px;
-    
+    width: 100%;
     
 }
 
 .column {
-    width: 60%;
-    
+    width: 100%;   
 }
+
+.column h3 {
+    padding-bottom: 10px;
+}
+
+.column-1 h3 {
+    padding-bottom: 10px;
+}
+
+
 
 
 
