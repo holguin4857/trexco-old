@@ -29,6 +29,12 @@ export default function Home() {
         </div>
       </section>
 
+      <section className='container-2'>
+        <div className='content-2'>
+          <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
+        </div>
+      </section>
+
 
 
       <section className='column-3'>
@@ -61,10 +67,7 @@ export default function Home() {
 
       
       <article class="footer">
-        <article class="column-1">
-          <h3>trexco shipping</h3>
-          <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
-        </article>
+        <div className='columns'>
         <article class="column">
           <h3>FAQ</h3>
           <ul>
@@ -81,6 +84,7 @@ export default function Home() {
               <li link href='#terms'>Terms & conditions</li>
             </ul>   
         </article>
+        </div>
       </article>
 
 

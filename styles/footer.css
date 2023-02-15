@@ -2,17 +2,19 @@
 
 .footer {
     display: flex;
-    padding: 50px;
+    padding: 30px 30px 50px;
     background-color: #121315;
     color: #a7a7a7; 
     gap: 3rem;
-    align-items: center;   
+    align-items: center;
 }
 
-.column-1 {
-    width: 100%;
-    
+.columns {
+    display: flex;
+    margin: 25px 55px;
+    padding: 20px;
 }
+
 
 .column {
     width: 100%;   
@@ -22,9 +24,7 @@
     padding-bottom: 10px;
 }
 
-.column-1 h3 {
-    padding-bottom: 10px;
-}
+
 
 
 
@@ -34,6 +34,11 @@
 
 @media screen and (max-width: 600px) {
     .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columns {
         display: flex;
         flex-direction: column;
     }
