@@ -22,7 +22,7 @@ export default function Home() {
         <div className='content'>
           <h1>the easy way to ship worldwide</h1>
           <p>trexco is a practical and affordable shipping solution to all over the world, sending from the UK and Spain to the US, Canada, Mexico, Europe, Asia, Africa and South America.</p>
-          <button className='button'>Book now</button>
+          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
         </div>
         <div className='image'>
           <img src='images/container1.png' alt='' width="600px" />
