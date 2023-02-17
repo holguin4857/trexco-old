@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 a{
   text-decoration: none;
   color: inherit;
@@ -20,7 +21,8 @@ nav{
   padding: 16px 85px;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;  
+  background-color: #ffffff;
+
 }
 
 .logo {
