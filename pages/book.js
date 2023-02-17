@@ -66,7 +66,7 @@ export default function Book() {
       </section>
 
       
-      <article class="footer">
+      <article className='footer'>
         <div className='columns'>
         <article class="column">
           <h3>FAQ</h3>
@@ -76,7 +76,7 @@ export default function Book() {
               <li link href='#contact'>Contact us</li>
           </ul>
         </article>
-        <article class="column">
+        <article className="column">
           <h3>terms</h3>
           <ul>
               <li link href='#prohibited'>Prohibited items</li>
