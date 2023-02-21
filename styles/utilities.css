@@ -9,7 +9,10 @@
     padding: 0%;
     margin-bottom: 50px;
 
-}
+  }
+  
+
+
   .content h1 {
     font-size: 60px;
     margin-bottom: 10px;
@@ -47,7 +50,7 @@
 
   .content-2 {
     display: flex;
-    padding: 45px;    
+    padding: 45px;
   }
 
   .content-2 p {

@@ -58,7 +58,7 @@ export default function Home() {
 
       <section className='container-2'>
         <div className='content-2'>
-          <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
+          <h2>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</h2>
         </div>
       </section>
 
