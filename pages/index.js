@@ -21,7 +21,7 @@ export default function Home() {
       <section className='container'>
         <div className='content'>
           <h1>the easy way to ship worldwide</h1>
-          <p>trexco is a practical and affordable shipping solution to all over the world, sending from the UK and Spain to the US, Canada, Mexico, Europe, Asia, Africa and South America.</p>
+          <p>trexco is a practical and affordable shipping solution, located in the UK and focused on sea and air transport to the US, Canada, Mexico and South America.</p>
           <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
         </div>
         <div className='image'>
@@ -31,7 +31,7 @@ export default function Home() {
 
       <section className='container-2'>
         <div className='content-2'>
-          <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
+          <h2>Pack it, Label it, Send it.. Simple!</h2>
         </div>
       </section>
 
@@ -55,6 +55,7 @@ export default function Home() {
         </div>
       </section>
 
+
       <section className='container-2'>
         <div className='content-2'>
           <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
@@ -64,7 +65,7 @@ export default function Home() {
       <section className='container'>
         <div className='content'>
           <h1>how it works</h1>
-          <p>Get do-it-yourself shipping options, for those who might be looking for an easy, affordable, efficient, way to ship.</p>
+          <p>We offer do-it-yourself shipping options, for those who might be looking for an easy, affordable, efficient, way to ship.</p>
           <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
         </div>
         <div className='image'>
