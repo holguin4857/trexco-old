@@ -18,20 +18,11 @@ export default function How() {
         <Navbar />
       </div>
 
-      <section className='container'>
-        <div className='content'>
-          <h1>how it works</h1>
-          <p>trexco is a practical and affordable shipping solution to all over the world, sending from the UK and Spain to the US, Canada, Mexico, Europe, Asia, Africa and South America.</p>
-          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
-        </div>
-        <div className='image'>
-          <img src='images/container1.png' alt='' width="600px" />
-        </div>
-      </section>
+     
 
       <section className='container-2'>
         <div className='content-2'>
-          <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
+          <h1>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</h1>
         </div>
       </section>
 
