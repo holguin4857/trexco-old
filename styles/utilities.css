@@ -21,12 +21,17 @@
   }
 
    .button {
+    background-color: #000000;
     width: 300px;
-    padding: 12px 20px;
-    border-radius: 20px;
-    border-style:dashed;
-    font-weight: 600;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
     
     
   }
