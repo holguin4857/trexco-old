@@ -25,7 +25,7 @@ export default function About() {
           <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
         </div>
         <div className='image'>
-          <img src='images/container1.png' alt='' width="600px" />
+          <img src='images/box-and-cat-round.png' alt='' width="600px" />
         </div>
       </section>
 

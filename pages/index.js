@@ -55,6 +55,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className='container-2'>
+        <div className='content-2'>
+          <p>Trexco have simplified shipping by using an easy, convenient way to pack, store, and move your cargo - all at the same time!</p>
+        </div>
+      </section>
+
+      <section className='container'>
+        <div className='content'>
+          <h1>how it works</h1>
+          <p>Get do-it-yourself shipping options, for those who might be looking for an easy, affordable, efficient, way to ship.</p>
+          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
+        </div>
+        <div className='image'>
+          <img src='images/man-compu-cat-round.png' alt='' width="600px" />
+        </div>
+      </section>
+
 
       <section className='container'>
         <div className='content'>
