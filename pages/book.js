@@ -68,7 +68,7 @@ export default function Book() {
       
       <article className='footer'>
         <div className='columns'>
-        <article class="column">
+        <article className="column">
           <h3>FAQ</h3>
           <ul>
               <li link href='#faq'>FAQ</li>
