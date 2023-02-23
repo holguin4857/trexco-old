@@ -46,12 +46,12 @@ export default function Home() {
         <div className='column'>
           <img src='images/box-and-cat-round.webp' />
           <h2>Start packing</h2>
-          <p>Pack your shipment on the Trexx pallet boxes, start packing the heavy stuff first and fragile on the top, seal and label the box.</p>
+          <p>Pack your shipment on the pallet boxes, start packing the heavy stuff first and fragile on the top, seal and label the box.</p>
         </div>
         <div className='column'>
           <img src='images/man-and-truck-round.webp' />
           <h2>Arrange collection</h2>
-          <p>Choose the collection date a driver will load your Trexx-Box with a pallet truck and it will get shipped to your destination.</p>
+          <p>Choose the collection date a driver will load your shipment with a pallet truck and will be sent to your destination.</p>
         </div>
       </section>
 
