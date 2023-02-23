@@ -21,7 +21,7 @@ export default function Home() {
       <section className='container'>
         <div className='content'>
           <h1>the easy way to ship worldwide</h1>
-          <p>trexco is a practical and affordable shipping solution, located in the UK and focused on sea and air transport to the US, Canada, Mexico and South America.</p>
+          <p>trexco is a practical and affordable shipping solution located in the UK and focused on sea and air transport to the US, Canada, Mexico and South America.</p>
           <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
         </div>
         <div className='image'>
