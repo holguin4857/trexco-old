@@ -20,9 +20,15 @@ export default function Contact() {
 
       <section className='container'>
         <div className='content'>
-          <h1>contact</h1>
-          <p>trexco is a practical and affordable shipping solution to all over the world, sending from the UK and Spain to the US, Canada, Mexico, Europe, Asia, Africa and South America.</p>
-          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Book now</Link></button>
+          
+         <h1>trexco</h1>
+          <li>Address: unit 122, Access House, 61 Willow walk</li>
+          <li>London, SE1 5SF, UK</li>
+          <li>Tel: +44 020 7096 1031, +44 020 7097 2265 </li>
+          <li>Email: hello@trexco.net</li>
+          <p></p>
+          <button className='button'><Link href="https://trexco.involve.me/trexco-personalized-quote">Contact us</Link></button>
+          
         </div>
         <div className='image'>
           <img src='images/container1.png' alt='' width="600px" />
@@ -66,22 +72,22 @@ export default function Contact() {
       </section>
 
       
-      <article className="footer">
+      <article class="footer">
         <div className='columns'>
-        <article className="column">
+        <article class="column">
           <h3>FAQ</h3>
           <ul>
-              <li link href='#faq'>FAQ</li>
-              <li link href='#how'>How it works</li>
-              <li link href='#contact'>Contact us</li>
+              <li><Link href='faq'>FAQ</Link></li>
+              <li><Link href='how'>How it works</Link></li>
+              <li><Link href='contact'>Contact us</Link></li>
           </ul>
         </article>
-        <article className="column">
+        <article class="column">
           <h3>terms</h3>
           <ul>
-              <li link href='#prohibited'>Prohibited items</li>
-              <li link href='#privacy'>Privacy policy</li>
-              <li link href='#terms'>Terms & conditions</li>
+               <li><Link href='prohibited'>Prohibited items</Link></li>
+              <li><Link href='privacy'>Privacy policy</Link></li>
+              <li><Link href='terms'>Terms & conditions</Link></li>
             </ul>   
         </article>
         </div>

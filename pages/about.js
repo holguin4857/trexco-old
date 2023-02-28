@@ -66,22 +66,22 @@ export default function About() {
       </section>
 
       
-      <article className="footer">
+      <article class="footer">
         <div className='columns'>
-        <article className="column">
+        <article class="column">
           <h3>FAQ</h3>
           <ul>
-              <li link href='#faq'>FAQ</li>
-              <li link href='#how'>How it works</li>
-              <li link href='#contact'>Contact us</li>
+              <li><Link href='faq'>FAQ</Link></li>
+              <li><Link href='how'>How it works</Link></li>
+              <li><Link href='contact'>Contact us</Link></li>
           </ul>
         </article>
-        <article className="column">
+        <article class="column">
           <h3>terms</h3>
           <ul>
-              <li link href='#prohibited'>Prohibited items</li>
-              <li link href='#privacy'>Privacy policy</li>
-              <li link href='#terms'>Terms & conditions</li>
+               <li><Link href='prohibited'>Prohibited items</Link></li>
+              <li><Link href='privacy'>Privacy policy</Link></li>
+              <li><Link href='terms'>Terms & conditions</Link></li>
             </ul>   
         </article>
         </div>
